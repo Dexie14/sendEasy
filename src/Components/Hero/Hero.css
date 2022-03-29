@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.Hero{
+    height: calc(100% - 68px);
+    background-color: #FB8500;
+}
+
+.Hero-content{
+    max-width: 90%;
+    margin: 0px auto;
+    display: flex;
+}
+.hero-text{
+    max-width: 40%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-left: 80px;
+    margin-top: 130px;
+}
+
+.hero-text h1{
+    font-size: 2.8rem;
+    /* width: 100% */
+}
+.hero-text p{
+    margin-top:40px;
+    font-size:0.875rem;
+    font-weight: 400;
+    width: 85%;
+    line-height: 25px;
+}
+
+.hero-image{
+    max-width: 50%;
+    display: flex;
+}
+.hero-image .heroI{
+    width: 100%;
+    height: auto;
+}
+.hero-image .quest{
+    width: 10%;
+}
+.heroI{
+    margin-top: -6px;
+}
+.quest{
+    margin-top: 450px;
+}
+.Btn{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+.Btn a{
+    text-decoration: none;
+}
+
+.BtnSignUp{
+    padding: 10px 30px;
+    background-color: #023047;
+    color: white;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.BtnSign{
+    padding: 10px 15px;
+    color: white;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #023047;
+}
+

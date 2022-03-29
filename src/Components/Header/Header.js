@@ -1,5 +1,6 @@
 import sendEasy from '../../Images/sendEasylogo.svg';
 import search from '../../Images/search.svg';
+import './Header.css';
 
 
 const Header = () => {

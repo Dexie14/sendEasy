@@ -1,0 +1,12 @@
+
+button {
+    display: flex;
+    font-size:12px;
+    border-radius:4px;
+    border: none;
+
+}
+
+.image{
+    margin-right: 10px;
+}
