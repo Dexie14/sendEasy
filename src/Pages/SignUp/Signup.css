@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.SignPage{
+    height: calc(100vh - 68px);
+    /* background-color:green */
+}
+.Signup{
+    display: flex;
+}
+
+.signupform{
+    width: 57%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lady{
+    width: 45%;
+    background-color: #FB8500;
+    height: calc(100vh - 68px);
+    /* position: relative; */
+}
+.ladyicon{
+    width: 70%;
+    /* position: absolute;
+    bottom: 0px;
+    right: 0px; */
+}
+.lady img{
+    width: 95%;
+    /* height: 500px; */
+    /* height: calc(100vh - 170px); */
+    object-fit: contain;
+    margin-left: 200px;
+    margin-top: 90px;
+    /* border: 5px solid; */
+    /* object-position: 31px 0px; */
+}
+
+
+.Formwidth{
+    max-width: 70%;
+    padding: 30px;
+    margin: 60px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Formwidth h2{
+    font-size: 2rem;
+    color:#023047
+}
+.Formwidth p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #023047;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#check{
+    margin-right: 10px;
+}
+
+input#check{
+    width: 20px;
+    height: 21px;
+}
+
+.checkB{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Formwidth p a{
+    text-decoration: none;
+}
+
+.checkB>label{
+    font-size: 0.8rem;
+}
+.Formwidth h5{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #023047;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    width: 89%;
+}
+
+.BtnSigning{
+        font-size:1rem;
+        border-radius:0px;
+        font-weight:bold;
+        border: 1px solid #023047;
+        padding: 12px 35px;
+        background-color: transparent;
+        color: #023047;
+}
+form a{
+    text-decoration: none;
+}

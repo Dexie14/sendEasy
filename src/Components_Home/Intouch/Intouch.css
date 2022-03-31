@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.intouch h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* font-size: 2.8rem; */
+    text-align: center;
+    color:  #023047;
+    margin-top: 60px;
+    /* line-height: 25px; */
+}
+
+.intouchCard{
+    width: 85%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .intouchCard:not(:last-child){
+    margin-right: 30px;
+} */
+
+.css4{
+    margin-right: 0px !important;
+}
+.cssimage2{
+    height: 180px;
+    object-fit: cover;
+    object-position: 10px 30px;
+    /* border: 5px solid black; */
+}
+.cssimage3{
+    height: 180px;
+    /* width: 100% !important;  */
+    object-fit: cover;
+    object-position: -15px 35px;
+    /* border: 5px solid black; */
+}
+.cssimage4{
+    height: 180px; 
+    object-fit: cover;
+    object-position: 10px 52px;
+    /* border: 5px solid black; */
+}

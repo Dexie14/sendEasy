@@ -4,6 +4,7 @@
 .Hero{
     height: calc(100% - 68px);
     background-color: #FB8500;
+    padding-bottom: 10px;
 }
 
 .Hero-content{

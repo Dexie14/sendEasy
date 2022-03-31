@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.touchcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.Touchimage{
+        background-color: #F2F6FC;
+        padding:20px;
+        width: 100%;
+        border-radius: 10%;
+        margin-bottom: 30px;    
+        height: 200px;
+}
+.Touchimage img{
+    width: 100%;
+}
+.Touchtext h3{
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.Touchtext p{
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.719rem;
+}

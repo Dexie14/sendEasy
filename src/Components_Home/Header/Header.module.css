@@ -8,6 +8,7 @@
 
 .head{
   background-color: #FB8500;
+  /* background-color: transparent; */
   position: fixed;
   top: 0;
   left: 0;
@@ -23,7 +24,7 @@ header{
   align-items: center;
 }
 .headerimage{
-  width: 40%;
+  width: 35%;
   margin-left: 80px;
 }
 .headerlogin a {
@@ -47,7 +48,7 @@ header{
 
 .Navbar{
   display: flex;
-  width: 60%;
+  width: 70%;
 }
 
 .nav{
@@ -57,7 +58,7 @@ header{
 
 header .icons{
   display:flex;
-  width: 35%;
+  width: 40%;
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
 }
