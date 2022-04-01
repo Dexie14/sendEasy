@@ -5,7 +5,7 @@ import './Button.css';
 const Button = (props) => {
   return (
     <div className="button">
-        <button className={props.css}>
+        <button className={props.css} type={props.type}>
         {props.img && <img src={email} alt="email" className='image' />}
         {props.text}
         </button>

@@ -2,9 +2,11 @@
 
 
 .Hero{
-    height: calc(100% - 68px);
+    /* height: calc(100% - 68px); */
     background-color: #FB8500;
     padding-bottom: 10px;
+    padding-top: 68px;
+
 }
 
 .Hero-content{

@@ -1,10 +1,10 @@
 import sendEasy from '../../Images/sendEasylogo.svg';
 import search from '../../Images/search.svg';
-import classes from './Header.module.css';
+import classes from '../Headertwo/Headertwo.module.css';
 import { Link } from "react-router-dom";
 
 
-const Header = () => {
+const Headertwo = () => {
   return (
     <div className={classes.head} >
     <header>
@@ -15,10 +15,10 @@ const Header = () => {
         <div className={classes.Navbar}>
             <nav className={classes.nav}>
                 <ul className={classes.navlink} >
-                    <li >
+                    <li className={classes.pro} >
                         <Link to="/">Products</Link>
                     </li>
-                    <li >
+                    <li className={classes.pro}>
                         <Link to="/">Resources</Link>
                     </li>
                     <li >
@@ -48,4 +48,4 @@ const Header = () => {
   );
 };
 
-export default Header
+export default Headertwo

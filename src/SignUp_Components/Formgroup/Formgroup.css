@@ -14,7 +14,7 @@
     font-weight: 700;
     font-size: 1rem;
     color: #023047;
-    margin-bottom: 8px
+    /* margin-bottom: 8px */
 }
 
 .form-input {
@@ -27,4 +27,19 @@
 
 .form-input:focus {
     outline: none;
+}
+
+.show p a{
+    text-decoration: none;
+    color: #138ECB;
+
+}
+.show{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.passcss{
+    margin-bottom: -12px;
+    margin-top: -10px;
 }

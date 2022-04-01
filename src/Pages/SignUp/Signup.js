@@ -3,8 +3,37 @@ import './Signup.css';
 import Formgroup from '../../SignUp_Components/Formgroup/Formgroup';
 import { Link } from "react-router-dom";
 import Button from '../../Components_Home/Button/Button';
+import { useState } from 'react';
+import {useNavigate} from 'react-router-dom';
 
-const Signup = () => {
+const Signup = (props) => {
+  console.log(props);
+
+  const [signupForm, setSignupForm] = useState({
+    email: '',
+    username: '',
+    password: '',
+  });
+
+  const changeHandler = (evt, type) => {
+    setSignupForm({
+      ...signupForm,
+      [type]: evt.target.value.trim(),
+    });
+  };
+
+  const navigate = useNavigate();
+  const handleSubmit = (evt) => {
+    evt.preventDefault();
+    // props.history.push("/");
+    navigate('/')
+};
+
+const [passwordShown, setPasswordShown] = useState(false);
+const togglePassword = (evt) => {
+  setPasswordShown(!passwordShown);
+};
+
   return (
     <div className="SignPage"> 
     <div className="Signup">
@@ -12,29 +41,30 @@ const Signup = () => {
           <div className="Formwidth">
           <h2>Welcome to SendEasy</h2>
           <p>Create an account or <Link to="/">log in</Link></p>
-        <form>
+        <form onSubmit={handleSubmit}>
         <Formgroup
           label="Email"
           type="email"
-          placeholder="Email Address"
-          // value={signupForm.email}
-          // onChange={(event) => changeHandler(event, 'email')}
+          value={signupForm.email}
+          onChange={(event) => changeHandler(event, 'email')}
           required={true}
         />
          <Formgroup
           label="Username"
           type="text"
-          placeholder="@janedoe"
-          // value={signupForm.username}
-          // onChange={(event) => changeHandler(event, 'username')}
+          value={signupForm.username}
+          onChange={(event) => changeHandler(event, 'username')}
           required={true}
         />
          <Formgroup
           label="Password"
-          type="password"
-          placeholder="Enter your password"
-          // value={signupForm.password}
-          // onChange={(event) => changeHandler(event, 'password')}
+          img="img"
+          PasswordShow={passwordShown}
+          onClick={togglePassword}
+          passcss="passcss"
+          type={passwordShown ? "text" : "password"}
+          value={signupForm.password}
+          onChange={(event) => changeHandler(event, 'password')}
           required={true}
           minLength={6}
           maxLength={20}
@@ -44,14 +74,11 @@ const Signup = () => {
               <label for="promotional emails">I don't want to receive <Link to="/">promotional emails</Link> from SendEasy.</label>
           </div>
           <h5>By creating an account, you agree to our <Link to="/">Terms</Link>and have read and acknowledge the <Link to="/">Global Privacy Statement.</Link></h5>
-          <Link to="/"><Button css="BtnSigning" text="Sign Up" /></Link>
+          <Button css="BtnSigning" text="Sign Up" type="submit"/>
+          {/* <button className="BtnSigning" type="submit" >Sign Up</button> */}
         </form>
         </div>
         </div>
-
-
-
-
 
 
         <div className="lady">
@@ -64,4 +91,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Signup;
