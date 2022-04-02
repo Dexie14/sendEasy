@@ -29,11 +29,12 @@
     outline: none;
 }
 
-.show p a{
-    text-decoration: none;
+.show span { 
     color: #138ECB;
-
+    font-weight: 400;
 }
+
+
 .show{
     display: flex;
     justify-content: space-between;

@@ -26,7 +26,7 @@ const Signup = (props) => {
   const handleSubmit = (evt) => {
     evt.preventDefault();
     // props.history.push("/");
-    navigate('/')
+    navigate('/Activate')
 };
 
 const [passwordShown, setPasswordShown] = useState(false);
@@ -73,7 +73,7 @@ const togglePassword = (evt) => {
               <input type="checkbox" id="check"/>
               <label for="promotional emails">I don't want to receive <Link to="/">promotional emails</Link> from SendEasy.</label>
           </div>
-          <h5>By creating an account, you agree to our <Link to="/">Terms</Link>and have read and acknowledge the <Link to="/">Global Privacy Statement.</Link></h5>
+          <h5 className="signline">By creating an account, you agree to our <Link to="/">Terms</Link> and have read and acknowledge the <span><Link to="/" >Global Privacy Statement.</Link></span></h5>
           <Button css="BtnSigning" text="Sign Up" type="submit"/>
           {/* <button className="BtnSigning" type="submit" >Sign Up</button> */}
         </form>

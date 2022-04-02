@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.Loginform{
+    width: 55%;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 80px;
+}
+.Loginlady{
+    width: 45%;
+    background-color: #FB8500;
+    padding-top: 80px;
+}
+.Loginpage{
+    display: flex;
+}
+
+.Loginlady img{
+    width: 70%;
+    margin-left: 178px;
+    margin-top: 43px;
+}
+
+.Loginform h2{
+    font-size: 2.3rem;
+    color:#023047
+}
+.Loginform p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #023047;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.Loginform p a{
+    text-decoration: none;
+    color: #138ECB;
+    margin-left: 10px;
+}
+
+.Loginform{
+    max-width: 40%;
+    padding: 40px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Loginform h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #138ECB;
+    margin-top: -12px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.BtnLogin{
+    font-size:1.12rem;
+    border-radius:0px;
+    font-weight:bold;
+    border: 1px solid #007C89;
+    padding: 12px 205px;
+    background-color: #007C89;
+    color: white;
+}

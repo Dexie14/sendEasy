@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.Activatepage{
+    display: flex;
+}
+
+.Activate{
+    width: 55%;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 80px;
+}
+.checkmail{
+    max-width: 80%;
+    margin: 70px 20px 0 auto;
+}
+.Activatelady{
+    width: 45%;
+    background-color: #FB8500;
+    padding-top: 80px;
+}
+.Activatelady img{
+    width: 70%;
+    margin-left: 178px;
+    margin-top: 43px;
+}
+
+li{
+   display: list-item;
+   list-style-position: inside;
+   /* margin-left: 5px; */
+   margin-bottom: 5px;
+   color:#023047
+}
+.Activate h4{
+    color:#023047
+}
+.Activate a{
+    color:#138ECB;
+    font-size:0.8rem;
+}
+.Activate h2{
+    font-size: 2.3rem;
+    color:#023047
+}
+.Activate p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #023047;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.listing p{
+    margin-top:30px;
+}
+
+.youremail p{
+    width: 78%;
+}
+

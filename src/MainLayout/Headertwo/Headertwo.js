@@ -36,7 +36,7 @@ const Headertwo = () => {
                 </div>
 
             <div className={classes.headerlogin}>
-                <Link to="/">Log In</Link>
+                <Link to="/Login">Log In</Link>
             </div>
             <div className={classes.headersignup}>
                 <Link to="/Signup">Sign Up</Link>
