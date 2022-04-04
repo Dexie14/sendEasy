@@ -4,9 +4,82 @@
 .dashboardNav{
     width: 20%;
     font-family: 'Montserrat', sans-serif;
-    background-color:red;
+    /* left: -1000px; */
+}
+.DashNav{
+    max-width:90%;
+    margin: 0px auto;
+    padding-top: 25px;
 }
 .dashhead{
     display:flex;
     justify-content:space-between;
+    margin-bottom: 20px;
+}
+
+.circle-create{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #007C89;
+        margin-right: 20px;
+}
+.create p{
+    font-size: 1rem;
+}
+.circle-create img{
+    width: 70%;
+    transform: translate(20%, 20%);
+}
+.create,
+.audience,
+.Campaigns,
+.Automations,
+.searchdash,
+.newuser{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.DashNav select{
+    margin-left: 30px;
+    border: none;
+    background-color:transparent;
+    width: 60%;
+    color: #023047;
+    font-size: 1rem;
+}
+.DashNav select:focus {
+    outline: none;
+}
+.searchdash p{
+    margin-left: 37px;
+    font-size: 1rem;
+}
+
+.upgrade{
+    padding: 10px 0px 20px 0px;
+    background-color: #D1E7EA;
+    color: #007C95;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    width: 90%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.newuser p{
+    font-size:0.87rem;
+}
+.usertext{
+    margin-left: 20px;
+}
+
+.dashcontainer{
+    display: flex;
+}
+
+hr{
+    height: 80vh;
 }

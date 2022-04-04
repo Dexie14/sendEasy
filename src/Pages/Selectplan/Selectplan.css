@@ -53,7 +53,7 @@
     border-width: 0 2px 2px 0;
 }
 
-select{
+.summary select{
     border: none;
     color: #138ECB;
     font-weight: 700;
