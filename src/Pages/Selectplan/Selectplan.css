@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.SelectPlan{
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.SelectPlan h4{
+    font-size:1.25rem;
+    color:#023047;
+    margin-bottom: 10px;
+}
+.arrowplan {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.planpick{
+    display: flex;
+    margin-bottom: 5px;
+}
+.planpick p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.planpick h5{
+    color:#023047;
+    margin-right: 10px;
+}
+.planpick:not(:first-child){
+    color:#D0BAB8;
+}
+.arr{
+    border: solid #D3BEBC;
+    border-width: 0 2px 2px 0;
+}
+
+.SelectPlan span{
+    margin-left: 30px;
+    color: #138ECB;
+}
+.planfeatures h2{
+    margin-left: 20px;
+}
+.arrr{
+    border: solid #138ECB;
+    border-width: 0 2px 2px 0;
+}
+
+select{
+    border: none;
+    color: #138ECB;
+    font-weight: 700;
+    width: 100px;
+    margin-left:-15px;
+    background-color: #EFEEEA;
+}
+.summary{
+    background-color: #EFEEEA;
+    padding: 20px 40px;
+}
+.summary p{
+    font-size: 0.87rem;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.freeplan{
+    display: flex;
+    justify-content: space-between;
+}
+.planfeatures{
+    border: solid 2px #EFEEEA;
+    margin-top: 10px;
+}
+.free{
+    padding: 20px 40px;
+}
+.free p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 0.87rem;
+}
+
+.BtnPlan{
+    font-size:0.87rem;
+    border-radius:0px;
+    font-weight:bold;
+    padding: 12px 0px;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    background-color: #004E56;
+    color: white;
+    margin-top: 30px;
+}
+
+.plancards{
+    display: flex;
+    justify-content: space-between;
+}
+

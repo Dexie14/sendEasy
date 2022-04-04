@@ -7,7 +7,7 @@
 }
 
 .form-group:not(:last-child) {
-    margin-bottom: 20px
+    margin-bottom: 15px
 }
 .form-label {
     font-family: 'Montserrat', sans-serif;

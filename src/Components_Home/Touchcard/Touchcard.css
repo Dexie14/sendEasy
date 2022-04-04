@@ -5,12 +5,20 @@
     flex-direction: column;
     justify-content: center;
     width: 25%;
-    margin-right: 30px;
+    margin-right: 40px;
+}
+
+.touchcard:hover{
+    padding: 20px 10px 20px 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    color: #6C63FF;
+
 }
 
 .Touchimage{
         background-color: #F2F6FC;
-        padding:20px;
+        padding:10px;
         width: 100%;
         border-radius: 10%;
         margin-bottom: 30px;    
@@ -25,9 +33,11 @@
     font-size: 1rem;
 }
 
+
 .Touchtext p{
     width: 100%;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.719rem;
+    color: black !important;
 }

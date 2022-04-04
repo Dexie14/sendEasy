@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.Profile{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px auto 0px 100px;
+    overflow:hidden;
+}
+.Profilelady{
+    width: 45%;
+    background-color: #FB8500;
+    padding-top: 160px;
+}
+.Profilepage{
+    display: flex;
+}
+.Profilelady img{
+    /* width: 100%; */
+    width: 70%;
+    margin-left: 178px;
+    margin-top: 43px;
+}
+
+
+.Profile h4{
+    font-size:1.25rem;
+    color:#023047;
+    margin-bottom: 10px;
+}
+
+.arrowplan {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.planpick{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.planpick p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.planpick h5{
+    color:#064869;
+    margin-right: 10px;
+}
+.planpick:not(:first-child){
+    color:#D0BAB8;
+}
+.arr{
+    border: solid #D3BEBC;
+    border-width: 0 2px 2px 0;
+}
+.planpick a{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color:#023047;
+}
+.new{
+    border: solid #023047;
+    border-width: 0 2px 2px 0;
+}
+.Names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileform{
+    width: 85%;
+    margin: 40px auto 0 0;
+}
+.profileform h2{
+    font-size: 2.3rem;
+    color:#023047;
+    margin-bottom: 30px;
+}
+.BtnProfile{
+    font-size:1.12rem;
+    border-radius:0px;
+    font-weight:bold;
+    align-items: center;
+    justify-content:center;
+    width: 30%;
+    padding: 13px 0px;
+    background-color: #004E56;
+    color: white;
+    margin-top:40px;
+}
+
+.namecss{
+    width:45%
+}

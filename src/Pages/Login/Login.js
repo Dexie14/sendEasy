@@ -39,7 +39,7 @@ const Login = () => {
         <div className="Loginform">
          <div>
             <h2>Log In</h2>
-            <p>Need a SendNow account? <Link to="/">Create an account</Link></p>
+            <p>Need a SendNow account? <Link to="/Signup">Create an account</Link></p>
             <form onSubmit={handleSubmit}>
                 <Formgroup
                 label="Username"

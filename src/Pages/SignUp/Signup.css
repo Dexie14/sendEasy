@@ -96,7 +96,10 @@ input#check{
         border-radius:0px;
         font-weight:bold;
         border: 1px solid #023047;
-        padding: 12px 35px;
+        padding: 12px 0px;
+        align-items: center;
+        justify-content:center;
+        width: 30%;
         background-color: transparent;
         color: #023047;
 }
