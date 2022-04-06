@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.DashboardPage{
+    display: flex;
+}
+.Dash_component{
+    width: 20%;
+}
+.Dashboard{
+    width:80%;
+}
+.Dashwidth{
+    width:90%;
+    margin:20px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.Dashwidth hr{
+   margin-bottom: 10px;
+}
+
+.Dashboardtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.Dashboardtop p{
+    font-size: 1.5rem ;
+    color: #023047;
+    font-weight: 500;
+}
+
+.dashboardcheck{
+    display: flex;
+    align-items: center;
+}
+
+.circle-check{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    margin-right: 20px;
+}
+
+.circle-check img{
+    width: 60%;
+    transform: translate(40%, 60%);
+}
+
+.arrowplan {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 20px;
+    margin-top:5px;
+  }
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.choose{
+    font-size: 2.0rem;
+    color: #023047;
+    font-weight: 500;
+    margin: 20px 0 20px 0;
+}
+

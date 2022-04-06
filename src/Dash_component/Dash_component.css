@@ -2,7 +2,7 @@
 
 
 .dashboardNav{
-    width: 20%;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     /* left: -1000px; */
 }
@@ -80,6 +80,6 @@
     display: flex;
 }
 
-hr{
+.dashcontainer hr{
     height: 80vh;
 }
