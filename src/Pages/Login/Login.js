@@ -25,7 +25,7 @@ const Login = () => {
       const handleSubmit = (evt) => {
         evt.preventDefault();
         // props.history.push("/");
-        navigate('/')
+        navigate('/Dashboard')
     };
     
     const [passwordShown, setPasswordShown] = useState(false);

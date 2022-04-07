@@ -20,9 +20,9 @@ const Selectplan = () => {
 
             <div className="plancards">
             <Plancard title="Premium" text="Advanced features for pros who need more customization." pay="You'll pay" digit="299" contact='with 10,000 contacts'/>
-            <Plancard cardcss="cardcss" easy="easy" title="Premium" text="Advanced features for pros who need more customization." pay="You'll pay" digit="299" contact='with 10,000 contacts'/>
-            <Plancard title="Premium" text="Advanced features for pros who need more customization." pay="You'll pay" digit="299" contact='with 10,000 contacts'/>
-            <Plancard curr="curr" currcss="currcss" title="Premium" text="Advanced features for pros who need more customization." pay="You pay" digit="299" contact='with 10,000 contacts'/>
+            <Plancard cardcss="cardcss" easy="easy" title="Premium" text="Advanced features for pros who need more customization." pay="You'll pay" digit="17" contact='with 10,000 contacts'/>
+            <Plancard title="Premium" text="Advanced features for pros who need more customization." pay="You'll pay" digit="11" contact='with 10,000 contacts'/>
+            <Plancard curr="curr" currcss="currcss" title="Premium" text="Advanced features for pros who need more customization." pay="You pay" digit="0" contact='with 10,000 contacts'/>
             </div>
 
             <div>
@@ -44,7 +44,7 @@ const Selectplan = () => {
                     </div>
                     <p>2,000 contacts*</p>
                     <p>10,000 email sends*</p>
-                    <Link to="/">
+                    <Link to="/Profile">
                     <Button css="BtnPlan" text="Next" /></Link>
                     </div>
                 </div>

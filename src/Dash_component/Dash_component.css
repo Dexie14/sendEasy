@@ -70,6 +70,10 @@
     margin-top: 150px;
     margin-bottom: 10px;
 }
+.upgrade a{
+    text-decoration: none;
+    color: #007C95;
+}
 .newuser p{
     font-size:0.87rem;
 }

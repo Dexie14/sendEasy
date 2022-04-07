@@ -20,7 +20,7 @@ const Dash_component = () => {
       <div className='DashNav'>
           <div className='dashhead'>
               <div className='dashlogo'>
-              <Link to="/"><img src={dashsendeasy} alt="dashsendEasy" /></Link>
+              <Link to="/Dashboard"><img src={dashsendeasy} alt="dashsendEasy" /></Link>
               </div>
               <div className='dashbox'>
               <Link to="/"><img src={dashbox} alt="dashsendEasy" /></Link>
@@ -46,7 +46,7 @@ const Dash_component = () => {
                     <img src={searchdash} alt="searchdash"/>
                     <p>Search</p>
                     </div>
-                        <div className='upgrade'>upgrade</div>
+                        <div className='upgrade'><Link to="/Selectplan">upgrade</Link></div>
                           <div className='newuser'>
                           <img src={newuser} alt="newuser"/>
                           <div className='usertext'><h5>Newuser1</h5><p>New user</p></div>
