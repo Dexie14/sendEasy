@@ -5,16 +5,18 @@ import { Link } from "react-router-dom";
 
 
 
-const Start_component = ({dashimage,BEmail}) => {
+const Start_component = ({dashimage,BEmail, title, text, Btext, Baudience, audiencecss, textcss, emailcss}) => {
   return (
-    <div>
-        <div className="">
-            <img src={dashimage} alt="dashimage"/>
+    <div className='Startcomp'>
+        <div className={`${emailcss} ${audiencecss} ${textcss} `}>
+            <div className="theimage"><img src={dashimage} alt="dashimage"/></div>
         </div>
-        <div className="">
-            <p>Send your first email</p>
-            <p>Choose a pre-designed template</p>
-            {BEmail && <Link to="/"><Button css="BtnSigning" text="Create Email" /></Link>}
+        <div className="starttext">
+            <p>{title}</p>
+            <p>{text}</p>
+            {BEmail && <Link to="/Sendmail_text"><Button css="BtnDash" text="Create Email" /></Link>}
+            {Btext && <Link to="/Sendmail_text"><Button css="BtnDash" text="Create Text" /></Link>}
+            {Baudience && <Link to="/"><Button css="Btnaud" text="Create Audience" /></Link>}
         </div>
     </div>
   );

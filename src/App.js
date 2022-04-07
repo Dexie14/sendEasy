@@ -8,6 +8,8 @@ import Profile from './Pages/Profile/Profile';
 import AddAddress from './Pages/AddAddress/AddAddress';
 import Contacts from './Pages/Contacts/Contacts';
 import Dashboard from './Pages/Dashboard/Dashboard';
+import Sendmail_text from './Pages/Sendmail_text/Sendmail_text';
+import AddContact from './Pages/AddContact/AddContact';
 import Home from './Pages/Home/Home';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import MainLayout from './MainLayout/MainLayout';
@@ -30,6 +32,8 @@ function App() {
             <Route path='/AddAddress' element={<AddAddress/>} exact />
             <Route path='/Contacts' element={<Contacts/>} exact />
             <Route path='/Dashboard' element={<Dashboard/>} exact /> 
+            <Route path='/Sendmail_text' element={<Sendmail_text/>} exact /> 
+            <Route path='/AddContact' element={<AddContact/>} exact /> 
           </Routes>
         </div>
         </main>

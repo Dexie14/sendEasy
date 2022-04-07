@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+.circle-mail{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #D7D6D4 ;
+    margin-right: 20px;
+}
+
+.circle-mail img{
+    width: 80%;
+    transform: translate(15%, -20%);
+    color: #D7D6D4;
+    
+}
+.mailTo{
+    display: flex;
+    margin-left: 10px;
+}
+
+.mailTo h3{
+    color: #023047;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.mailTo p{
+    font-style: italic;
+    color: #023047;
+    letter-spacing: -0.09rem
+}
+.SendMail{
+    display:flex;
+    justify-content: space-between;
+}
+.Btnmail{
+    padding: 10px 0px;
+    /* text-align: center; */
+    justify-content: center;
+    width: 147px;
+    font-size:0.87rem;
+    border-radius:0px;
+    font-weight:bold;
+    color: white;
+    background-color: #6F6965;
+    margin-right: 10px;
+}

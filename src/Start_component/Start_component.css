@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.Startcomp{
+    border: 1.5px solid #EFEEEA;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.theimage{
+    /* position: absolute; */
+    margin: 30px auto 0px;
+    /* top: 40px;
+    left: 80px; */
+}
+.starttext{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+}
+.starttext p:first-child{
+    font-size:1.2rem;
+    color:#023047;
+    font-weight: 500;
+}
+.starttext p:nth-child(2){
+    font-size:0.87rem;
+    color:#023047;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.BtnDash{
+    padding: 12px 25px;
+    text-align: center;
+    font-size:0.87rem;
+    border-radius:0px;
+    font-weight:bold;
+    color: white;
+    background-color: #004E56;
+}
+.Btnaud{
+    padding: 12px 25px;
+    text-align: center;
+    font-size:0.87rem;
+    border-radius:0px;
+    font-weight:bold;
+    color: white;
+    background-color: #004E56;
+    margin-top: -15px;
+}

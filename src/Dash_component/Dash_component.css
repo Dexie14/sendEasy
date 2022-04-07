@@ -66,8 +66,9 @@
     justify-content:center;
     display: flex;
     width: 90%;
-    margin-top: 80px;
-    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 10px;
 }
 .newuser p{
     font-size:0.87rem;
