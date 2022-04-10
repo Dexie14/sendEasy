@@ -12,7 +12,7 @@ const Hero = () => {
                 <div className="hero-text">
                 <div className="Htext">
                 <h1>Accelerate sales and grow your business with send easy</h1> 
-                <p>Get all of the email marketing, CRM, and automation tools you need for increased profits, better workflows <br/> and happier customers</p>
+                <p>Get all of the email marketing, CRM, and automation tools you need for increased profits, better workflows and happier customers</p>
                 </div>
                 <div className="Btn">
                     <Link to="/Signup">

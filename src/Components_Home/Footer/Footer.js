@@ -7,6 +7,7 @@ const Footer = () => {
   return (
     <div className={classes.foot}>
         <footer className={classes.footer}>
+            <div className={classes.footflex}>
             <div className={`${classes.Products} ${classes.item}`}>
                 <h3>Products</h3>
                 <p>Why Send easy?</p>
@@ -36,7 +37,9 @@ const Footer = () => {
                 <p>Developers</p>
                 <p>Events</p>
             </div>
+            </div>
 
+            <div className={classes.footflex}>
             <div className={`${classes.Company} ${classes.item}`}>
                 <h3>Company</h3>
                 <p>Our Story</p>
@@ -63,6 +66,7 @@ const Footer = () => {
                     <p>Expert insights, industry trends, and insipiring stories that help you live and work on your own terms.</p>
                     <h4>Learn more <span><img src={arrow} alt="arrow"/></span></h4>
                 </div>
+            </div>
             </div>
         </footer>
     </div>

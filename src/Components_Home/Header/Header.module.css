@@ -85,3 +85,99 @@ header .icons{
 .icon img{
   width: 100%;
 }
+.bar{
+  display: none;
+  background: transparent;
+}
+
+/* Responsive line of codes */
+
+@media (max-width: 1080px){
+  header .icons{
+    width: 60%;
+  }
+  .nav{
+    width: 78%;
+  }
+  .Navbar{
+    width: 90%;
+  }
+  .headerimage{
+    width: 20%;
+  }
+}
+
+@media (max-width: 768px){
+  .bar{
+    display:block;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .hideBar{
+    color: #fff;
+  }
+  .Navbar .icons, .Navbar nav{
+    display: none;
+  } 
+
+  .NavHAM {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    /* top: 0; */
+    /* left: 0; */
+    right: 0;
+    width: 50vw;
+    backdrop-filter: blur(20px);
+    margin:auto;
+    height: 65vh;
+    flex-direction: column;
+    text-align: center;
+    background-color :#FB8500;
+    align-items: center;
+    border: 2px #023047 solid;
+    justify-content: center;
+    border-radius: 30px;
+    transition: 0.95s ease-in-out;
+}
+
+.NavHAM .navlink{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.NavHAM .icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.NavHAM .nav a { 
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.NavHAM .navlink li{
+  margin-bottom: 20px;
+}
+
+.NavHAM .headerlogin a{
+  padding: 10px 35px;
+  font-size: 1.2rem;
+}
+.NavHAM .headersignup a{
+  padding: 10px 35px;
+  font-size: 1.2rem;
+}
+.NavHAM .headerlogin {
+  margin-bottom: 30px;
+}
+.NavHAM .icon{
+  margin-bottom: 20px;
+}
+
+}

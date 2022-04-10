@@ -31,7 +31,7 @@
     margin-top:40px;
     font-size:0.875rem;
     font-weight: 400;
-    width: 85%;
+    width: 81%;
     line-height: 25px;
 }
 
@@ -76,3 +76,113 @@
     border: 1px solid #023047;
 }
 
+
+/* Responsive line of codes */
+
+@media (max-width: 1326px){
+    .hero-text{
+        max-width: 45%;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .hero-text{
+        margin-top: 80px;
+    }
+    .hero-text{
+        max-width: 47%;
+    }
+    .hero-image{
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 1134px){
+    .hero-text{
+        margin-top: 60px;
+    }
+    .hero-text{
+        max-width: 45%;
+    }
+    .hero-image{
+        max-width: 60%;
+    }
+    .hero-text h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1068px){
+    .hero-text p{
+        width: 100%;
+    }
+    .quest{
+        margin-top: 300px;
+    }
+    .hero-image{
+        max-width: 90%;
+    }
+    .hero-text{
+        max-width: 40%;
+    }
+    .hero-text h1{
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 952px){
+    .Btn{
+        margin-top: 25px;
+    }
+    .hero-text p{
+        margin-top:25px;
+        width: 100%;
+        line-height: 20px;
+    }
+    .hero-text{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 878px){
+    .BtnSignUp{
+        padding: 10px 20px;
+    }
+    .BtnSign{
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 828px){
+    .BtnSign{
+        padding: 10px 10px;
+    }
+    .Hero-content{
+        flex-wrap: wrap;
+    }
+    .hero-text{
+        max-width: 70%;
+    }
+    .hero-image{
+        max-width: 70%;
+        margin: auto;
+    }
+   
+}
+
+@media (max-width: 478px){
+    .BtnSignUp{
+        padding: 10px 10px;
+        margin-right: 15px;
+    }
+    .BtnSign{
+        padding: 10px 5px;
+    }
+    .Btn{
+        margin-right: 0px;
+    }
+    .quest{
+        margin-top: 250px;
+    }
+}

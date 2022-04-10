@@ -43,3 +43,18 @@
     object-position: 10px 52px;
     /* border: 5px solid black; */
 }
+
+
+/* Responsive line of codes */
+
+@media (max-width: 1150px){
+    .intouchCard{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 250px);
+        justify-content:center;
+        align-items:center;
+        grid-column-gap: 20px;
+        grid-row-gap: 10px;
+        width:100%;
+    }
+}
