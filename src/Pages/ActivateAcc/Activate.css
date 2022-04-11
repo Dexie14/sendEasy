@@ -18,10 +18,13 @@
     background-color: #FB8500;
     padding-top: 80px;
 }
-.Activatelady img{
+.activateicon{
     width: 70%;
-    margin-left: 178px;
-    margin-top: 43px;
+}
+.activateicon img{
+    width: 85%;
+    margin-left: 225px;
+    margin-top: 70px;
 }
 
 li{
@@ -57,3 +60,56 @@ li{
     width: 78%;
 }
 
+/* Responsive line of codes */
+
+@media (max-width: 1240px){
+    .activateicon img{
+        width: 100%;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1114px){
+    .activateicon{
+        width: 65%;
+    }
+    .activateicon img{
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+}
+@media (max-width: 1044px){
+    .activateicon img{
+        margin-left: 140px;
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 905px){
+    .Activatepage{
+        display: block;
+    }
+    .Activate{
+        width: 90%;
+       
+    }
+    .checkmail{
+        max-width: 80%;
+        margin-top: 50px;
+    }
+    .activateicon{
+        width: 80%;
+        margin:auto; 
+    }
+    .Activatelady{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .activateicon img{
+        width: 80%;
+        margin-left: 40px;
+        margin-top: 120px;
+    }
+
+}

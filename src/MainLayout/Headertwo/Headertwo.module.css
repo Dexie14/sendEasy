@@ -8,7 +8,8 @@
 
 .head{
   /* background-color: #FB8500; */
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-image: linear-gradient(to right, white 55% , #FB8500 45%);
   position: fixed;
   top: 0;
   left: 0;
@@ -90,25 +91,59 @@ header .icons{
 
 .bar{
   display: none;
-  /* background: transparent; */
+  background: transparent;
 }
 
 /* Responsive line of codes */
 
-@media (max-width: 1080px){
+@media (max-width: 1294px){
   header .icons{
-    width: 60%;
+    width: 40%;
   }
   .nav{
-    width: 78%;
+    width: 65%;
   }
   .Navbar{
-    width: 90%;
+    width: 70%;
+  }
+  .headerimage{
+    width: 40%;
+  }
+}
+
+@media (max-width: 1030px){
+  header .icons{
+    width: 45%;
+  }
+  .Navbar{
+    width: 75%;
   }
   .headerimage{
     width: 20%;
   }
+  .nav{
+    width: 60%;
+  }
+  .proI a{
+    color: #023047 !important;
+  }
 }
+
+@media (max-width: 905px){
+  .head{
+    background-image: linear-gradient(to right, white 100% , #FB8500 0%);
+  }
+  .headerlogin a{
+    background-color: transparent !important;
+  }
+  .proP a{
+    color: #023047 !important;
+  }
+
+}
+
+
+
 
 @media (max-width: 768px){
   .bar{
@@ -181,5 +216,7 @@ header .icons{
 .NavHAM .icon{
   margin-bottom: 20px;
 }
-
+.proP a{
+  color: #023047 !important;
+}
 }

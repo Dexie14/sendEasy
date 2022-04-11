@@ -15,8 +15,11 @@
     display: flex;
 }
 
-.Loginlady img{
+.loginicon{
     width: 70%;
+}
+.loginicon img{
+    width: 95%;
     margin-left: 178px;
     margin-top: 43px;
 }
@@ -68,4 +71,67 @@
     width: 100%;
     background-color: #007C89;
     color: white;
+}
+
+
+/* Responsive line of codes */
+
+@media (max-width: 1202px){
+    .loginicon{
+        width: 70%;
+    }
+    .loginicon img{
+        width: 100%;
+        margin-left: 150px;
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 1100px){
+    .loginicon{
+        width: 65%;
+    }
+    .loginicon img{
+        width: 100%;
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+}
+@media (max-width: 958px){
+    .loginicon{
+        width: 63%;
+    }
+    .loginicon img{
+        width: 100%;
+        margin-left: 150px;
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 905px){
+    .Loginpage{
+        display: block;
+    }
+    .Loginform{
+        width: 90%;
+       
+    }
+    .Loginform{
+        max-width: 80%;
+        margin-top: 100px;
+    }
+    .loginicon{
+        width: 80%;
+        margin:auto; 
+    }
+    .Loginlady{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .loginicon img{
+        width: 80%;
+        margin-left: 40px;
+        margin-top: 120px;
+    }
+
 }

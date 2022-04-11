@@ -39,10 +39,10 @@ const Headertwo = () => {
                     <li className={classes.pro}>
                         <Link to="/">Resources</Link>
                     </li>
-                    <li >
+                    <li className={classes.proI}>
                         <Link to="/">Inspiration</Link>
                     </li>
-                    <li >
+                    <li className={classes.proP}>
                         <Link to="/">Pricing</Link>
                     </li>
                 </ul>

@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* .SignPage{
-    height: calc(100vh - 68px);
-    background-color:green 
-} */
+.SignPage{
+    overflow:hidden;
+}
 .Signup{
     display: flex;
 }
 
 .signupform{
-    width: 57%;
+    width: 55%;
     font-family: 'Montserrat', sans-serif;
     padding-top: 80px;
 }
@@ -23,6 +22,7 @@
 }
 .ladyicon{
     width: 70%;
+    /* display: none; */
     /* position: absolute;
     bottom: 0px;
     right: 0px; */
@@ -115,4 +115,77 @@ form a{
 
 .Formwidth h5 span a {
    text-decoration: none;
+}
+
+
+/* Responsive line of codes */
+
+@media (max-width: 1233px){
+    .lady img{
+        margin-top: 150px;
+        margin-left:150px;
+    }
+        .ladyicon{
+            width: 75%;
+        }
+
+}
+
+@media (max-width: 1105px){
+    .lady img{
+        margin-top: 180px;
+        margin-left:110px;
+    }
+        .ladyicon{
+            width: 80%;
+        }
+
+}
+
+@media (max-width: 991px){
+    .lady img{
+        margin-top: 180px;
+        margin-left:90px;
+        width: 80%;
+    }
+        .ladyicon{
+            width: 100%;
+        }
+
+}
+@media (max-width: 905px){
+    .Signup{
+        display: block;
+    }
+    .signupform{
+        width: 90%;
+    }
+    .lady{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .ladyicon{
+        width: 80%;
+        margin:auto; 
+    }
+    .Formwidth{
+        max-width: 80%;
+    }
+    .lady img{
+        margin-top: 100px;
+        margin-left:30px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px){
+    .Formwidth{
+        max-width: 95%;
+    }
+    .Formwidth h5{
+        width:100%;
+    }
+    .BtnSigning{
+        width: 50%;
+    }
 }

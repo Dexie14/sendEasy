@@ -31,7 +31,9 @@ const Activate = () => {
           </div>
         </div>
         <div  className='Activatelady'>
-            <img src={Activatelady} alt="loginlady"/>  
+          <div className="activateicon">
+            <img src={Activatelady} alt="Activatelady"/>  
+            </div>  
         </div>
     </div>
   )

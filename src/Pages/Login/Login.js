@@ -37,7 +37,7 @@ const Login = () => {
   return (
     <div  className="Loginpage">
         <div className="Loginform">
-         <div>
+         <div className="loginwidth">
             <h2>Log In</h2>
             <p>Need a SendNow account? <Link to="/Signup">Create an account</Link></p>
             <form onSubmit={handleSubmit}>
@@ -67,7 +67,9 @@ const Login = () => {
          </div>
         </div>
         <div className='Loginlady'>
-            <img src={login_lady} alt="loginlady"/>   
+          <div className="loginicon">
+            <img src={login_lady} alt="loginlady"/> 
+          </div>  
         </div>
     </div>
   )
