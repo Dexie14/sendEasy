@@ -32,7 +32,7 @@ const Activate = () => {
         </div>
         <div  className='Activatelady'>
           <div className="activateicon">
-            <img src={Activatelady} alt="Activatelady"/>  
+            <img src={Activatelady} alt="Activate_lady"/>  
             </div>  
         </div>
     </div>
