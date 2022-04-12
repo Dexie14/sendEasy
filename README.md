@@ -25,7 +25,7 @@ Users should be able to:
 ![](./src/Images/Screenshots/sendEasyHomepage.png)
 
 ## Screenshot2
-![](./src/Images/Screenshots/SendEasyDashboard.png)
+![](./src/Images/Screenshots/SendEasyDashboards.png)
 
 
 ### Links
@@ -59,7 +59,7 @@ I am definitely working more on understanding react hooks such as useState, useE
 - [w3schools](https://www.w3schools.com/) - This helped me to see better ways of applying my codes. I really liked their system pattern.
 - [stackoverflow](https://stackoverflow.com/) - This is an amazing site which helped me to find solutions to problems I faced in working out my code.
 - [react-router-dom](https://reactrouter.com/docs/en/v6/getting-started/overview) - This helped me to understand how to use react router and how to use react router dom.
-- [Youtube] (https://www.youtube.com/) - I am really say everyone needs youtube.
+- [Youtube](https://www.youtube.com/) - I am really say everyone needs youtube.
 
 ## Author
 
