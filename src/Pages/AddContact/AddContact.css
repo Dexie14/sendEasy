@@ -76,3 +76,32 @@
 .AUDlist i{
     margin-right: 30px;
 }
+
+/* Responsive line of codes */
+
+@media (max-width: 1180px){
+    .BtnAddContact{
+       width: 20%;
+    }
+}
+
+@media (max-width: 978px){
+    .BtnAddContact{
+       width: 25%;
+    }
+}
+
+@media (max-width: 800px){
+    .AddContact{
+        width: 80%;
+    }
+    .BtnEdit{
+        width: 25%;
+     }
+    
+}
+@media (max-width: 606px){
+    .BtnAddContact{
+       width: 30%;
+    }
+}
