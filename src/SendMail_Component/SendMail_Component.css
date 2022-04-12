@@ -49,3 +49,17 @@
     background-color: #6F6965;
     margin-right: 10px;
 }
+
+
+/* Responsive line of codes */
+
+@media (max-width: 680px){
+    .Btnmail{
+        width: 110px;
+    }
+}
+@media (max-width: 445px){
+    .Btnmail{
+        width: 80px;
+    }
+}

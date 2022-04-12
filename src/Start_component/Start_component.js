@@ -14,7 +14,7 @@ const Start_component = ({dashimage,BEmail, title, text, Btext, Baudience, audie
         <div className="starttext">
             <p>{title}</p>
             <p>{text}</p>
-            {BEmail && <Link to="/Sendmail_text"><Button css="BtnDash" text="Create Email" /></Link>}
+            {BEmail && <Link to="/Sendmail_text"><Button css="BtnBmail" text="Create Email" /></Link>}
             {Btext && <Link to="/Sendmail_text"><Button css="BtnDash" text="Create Text" /></Link>}
             {Baudience && <Link to="/AddContact"><Button css="Btnaud" text="Create Audience" /></Link>}
         </div>

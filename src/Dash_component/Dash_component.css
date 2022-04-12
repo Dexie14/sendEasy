@@ -4,7 +4,11 @@
 .dashboardNav{
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    /* left: -1000px; */
+    /* position: fixed;
+    left: -1000px; */
+}
+.sideBAR{
+    display: none;
 }
 .DashNav{
     max-width:90%;
@@ -87,4 +91,36 @@
 
 .dashcontainer hr{
     height: 80vh;
+}
+.das{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive line of codes */
+
+@media (max-width: 1082px){
+    .DashNav select{
+       width: 80%;
+    }
+}
+
+@media (max-width: 800px){
+    .dashboardNav{
+        width: 30%;
+        position: fixed;
+        font-family: 'Montserrat', sans-serif;
+        left: -1000px;
+}
+    .das{
+        position: fixed;
+        left: 0px;
+        font-family: 'Montserrat', sans-serif;
+        background-color:#8da8b6;
+    }
+    .sideBAR{
+        display: block;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
 }

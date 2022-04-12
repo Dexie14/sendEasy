@@ -47,6 +47,15 @@
     color: white;
     background-color: #004E56;
 }
+.BtnBmail{
+    padding: 12px 25px;
+    text-align: center;
+    font-size:0.87rem;
+    border-radius:0px;
+    font-weight:bold;
+    color: white;
+    background-color: #004E56;
+}
 .Btnaud{
     padding: 12px 25px;
     text-align: center;
@@ -56,4 +65,25 @@
     color: white;
     background-color: #004E56;
     margin-top: -15px;
+}
+
+
+/* Responsive line of codes */
+
+@media (max-width: 1294px){
+    .Btnaud{
+        margin-top: 10px;
+    }
+    .BtnBmail{
+        margin-top: 22px;
+    }
+}
+
+@media (max-width: 948px){
+    .Startcomp{
+        width: 100%;
+    }
+    .BtnDash{
+        margin-top:20px;
+    }
 }

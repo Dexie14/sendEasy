@@ -8,23 +8,37 @@ import Campaigns from '../Images/campaign.svg';
 import Automations from '../Images/automation.svg';
 import searchdash from '../Images/dashboard_search.svg';
 import newuser from '../Images/newuser.svg';
+import { useState } from 'react';
 
 
 
 
 
 const Dash_component = () => {
+
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSideBar = () => setSidebar(!sidebar);
+
   return (
   <div className='dashcontainer'>
-    <div className='dashboardNav'>
+
+        {!sidebar && (
+            <button className='sideBAR' onClick={showSideBar} >
+               <img src={dashbox} alt="dashsendEasy" />
+            </button>
+            )}
+
+    <div className= {sidebar ? 'das ' : 'dashboardNav'}>
       <div className='DashNav'>
           <div className='dashhead'>
               <div className='dashlogo'>
               <Link to="/Dashboard"><img src={dashsendeasy} alt="dashsendEasy" /></Link>
               </div>
-              <div className='dashbox'>
-              <Link to="/"><img src={dashbox} alt="dashsendEasy" /></Link>
+              <div className='dashbox'  onClick={showSideBar}>
+              <img src={dashbox} alt="dashsendEasy" />
               </div>
+        
           </div>
             <div className='create'>
               <div className='circle-create'><img src={create} alt="create"/></div>
