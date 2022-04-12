@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+## Table of contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [SEND EASY](#SEND EASY)
+  - [Screenshot](#screenshot)
+  - [Screenshot2](#screenshot2)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## Available Scripts
 
-In the project directory, you can run:
+### SEND EASY
 
-### `npm start`
+Users should be able to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- View the optimal layout for the site depending on their device's screen size
+- Route to different pages on the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Screenshot
 
-### `npm test`
+![](./src/Images/Screenshots/sendEasyHomepage.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshot2
+![](./src/Images/Screenshots/SendEasyDashboard.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Solution URL: [https://github.com/Dexie14/sendEasy.git](https://github.com/Dexie14/sendEasy.git)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My process
 
-### `npm run eject`
+........🥶😱😰😢😔😓😴🤔🤗😊😋😎
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Built with
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React @v18
+- Semantic JSX markup
+- CSS modules
+- FlexboX/Grid
+- react hooks
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### What I learned
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+At first glance, The project seemed all difficult and not achievable knowing I have to implement with REACT for the first time. Of course, learnt a lot working with this project, the realization of a particular means to making my code effective and learning new things... Quite Amazing I must say. 
 
-## Learn More
+I learnt how to create the react app from different terminals and installation of different react packages from npm website and their usages, react hooks( there wasn't so much of state management and I would still say there was a lot of state management as I layed my hands on perfecting the ones I needed to in this project 🤗), use of css modules, use of semantic jsx, use of react-router-dom and more....
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Continued development
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I am definitely working more on understanding react hooks such as useState, useEffect etc, understanding user context/context API, folder structuring, component and props, usages of different packages and css frameworks. 
 
-### Code Splitting
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [w3schools](https://www.w3schools.com/) - This helped me to see better ways of applying my codes. I really liked their system pattern.
+- [stackoverflow](https://stackoverflow.com/) - This is an amazing site which helped me to find solutions to problems I faced in working out my code.
+- [react-router-dom](https://reactrouter.com/docs/en/v6/getting-started/overview) - This helped me to understand how to use react router and how to use react router dom.
+- [Youtube] (https://www.youtube.com/) - I am really say everyone needs youtube.
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Github - [@Dexie14](https://github.com/Dexie14)
+- Twitter - [@adeluadeoniye14](https://www.twitter.com/adeluadeoniye14)
+- LinkedIn - [@adelu-adeoniye](https://www.linkedin.com/in/adelu-adeoniye/)
 
-### Making a Progressive Web App
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A very big thank you to everyone who assisted me in understanding the project better. I would also like to thank Grazac academy for providing the great opportunity to solve challenges and give a space for building up.
