@@ -91,3 +91,14 @@
 .currcss{
     margin-top:5px
 }
+
+
+/* Responsive line of codes */
+
+@media (max-width: 1050px){
+    .Plancard{
+        width: 100%;
+    }
+    .recommend{
+        width: 100%;}
+}

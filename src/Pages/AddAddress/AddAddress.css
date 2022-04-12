@@ -17,7 +17,7 @@
 
 .Addresslady img{
     width: 70%;
-    margin-left: 168px;
+    margin-left: 160px;
     margin-top: 43px;
 }
 
@@ -122,4 +122,70 @@
     background-color: #004E56;
     color: white;
     margin-top:30px;
+}
+
+/* Responsive line of codes */
+
+@media (max-width: 1140px){
+    .planpick{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1200px){
+    .Addresslady img{
+        width: 80%;
+        margin-left: 100px;
+        margin-top: 55px;
+    }
+}
+@media (max-width: 1050px){
+    .Addresslady img{
+        width: 80%;
+        margin-left: 70px;
+        margin-top: 95px;
+    }
+}
+
+@media (max-width: 900px){
+    .Addresspage{
+        display: block;
+    }
+    .Address{
+        width: 80%;
+    }
+    .Addresslady{
+        width: 100%;
+        margin-top:40px;
+    }
+    .Addresslady img{
+            width: 70%;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+}
+
+@media (max-width: 600px){
+    .Addressform{
+        width: 100%;
+        margin: 10px auto 0 0;
+    }
+    .Address{
+        width: 90%;
+        margin: 15px auto 0px auto;
+    }
+    .citycss{
+        width:49%
+    }
+}
+
+@media (max-width: 440px){
+    .city{
+        display: block;
+        margin-bottom: 15px;
+    }
+    .citycss{
+        width:100%
+    }
 }

@@ -99,3 +99,40 @@
 .namecss{
     width:45%
 }
+
+
+/* Responsive line of codes */
+
+@media (max-width: 1050px){
+    .Profilelady img{
+        width: 80%;
+        margin-left: 90px;
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 900px){
+    .Profilepage{
+        display: block;
+    }
+    .Profile{
+        width: 80%;
+    }
+    .Profilelady{
+        width: 100%;
+        margin-top:40px;
+    }
+    .Profilelady img{
+            width: 70%;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+}
+
+@media (max-width: 500px){
+    .Profile{
+        margin: 15px auto 0px auto;
+    }
+    .BtnProfile{
+        width: 40%;}
+}

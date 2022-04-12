@@ -63,14 +63,14 @@ const Profile = () => {
                         placeholder="http://sendEasy.com"
                         // value={signupForm.username}
                         // onChange={(event) => changeHandler(event, 'username')}
-                        required={true}
+                        // required={true}
                         />
                           <Formgroup
                         label="Phone number"
                         type="tel"
                         // value={signupForm.username}
                         // onChange={(event) => changeHandler(event, 'username')}
-                        required={true}
+                        // required={true}
                         placeholder="0704-444-4444"
                         pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"
                         minLength={11}
