@@ -1,6 +1,6 @@
 ## Table of contents
 
-- [SEND EASY](#SEND EASY)
+- [SEND EASY](#SENDEASY)
   - [Screenshot](#screenshot)
   - [Screenshot2](#screenshot2)
   - [Links](#links)
